@@ -170,7 +170,7 @@ Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung
 
 ### Parameter der Benchmark-Testfälle
 
-Nachfolgend die Werte der im Benchmark verwendeten Parameter für P und W. Der Parameter `D_Word_Length_Cap_Mult_Constant` hat immer den Wert 3.5.
+Nachfolgend die Werte der im Benchmark verwendeten Parameter für P und W. Der Parameter `D_Word_Length_Cap_Mult_Constant` hatte immer den Wert 3.5.
 
 | Testfall | W | P |
 |---|---:|---:|
@@ -204,7 +204,7 @@ Nachfolgend die Werte der im Benchmark verwendeten Parameter für P und W. Der P
 | Windows | 5 | 23 |
 | world_leaders | 5 | 16 |
 
-###Bemerkung
+### Bemerkung
 
 Der Code ist bewusst nicht kommentiert. Diesen Algorithmus effizient umzusetzen, war alles andere als trivial und hat viel Zeit gekostet. Daher möchte ich persönlich nicht, dass jeder sich umsonst einfach darüber informieren kann, wie ich das gemacht habe. Ich bitte um Verständnis. Der Code kann aber von jedem, der möchte, benutzt werden. Für ein Grundverständnis des Algorithmus würde ich empfehlen, das folgende Paper zu lesen:
 
