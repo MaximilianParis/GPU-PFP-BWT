@@ -145,11 +145,11 @@ Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung
 * Gesamtlaufzeit der neuen Implementierung: **11,88 s**
 * Die neue Implementierung benötigt damit nur etwa **31,6 %** der Laufzeit der alten Implementierung.
 
-![Laufzeit](Laufzeit_1_7.png)
-![Laufzeit](Laufzeit_8_14.png)
-![Laufzeit](Laufzeit_15_22.png)
-![Laufzeit](Laufzeit_23_29.png)
-![Laufzeit](Laufzeit%20Gesamt.png)
+![Laufzeit 1 bis 7](Laufzeit_1_7.jpg)
+![Laufzeit 8 bis 14](Laufzeit_8_14.jpg)
+![Laufzeit 15 bis 22](Laufzeit_15_22.jpg)
+![Laufzeit 23 bis 29](Laufzeit_23_29.jpg)
+![Laufzeitsumme](Laufzeit%20Gesamt.jpg)
 
 ### Speicherverbrauch
 
@@ -160,8 +160,8 @@ Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung
 * Die neue Implementierung benötigt damit etwa **85,1 %** des Speichers der alten Implementierung.
 * Dies entspricht einer **Speicherreduktion von etwa 14,9 %**.
 
-![Speicher](Speicher_1_7.png)
-![Speicher](Speicher_8_14.png)
-![Speicher](Speicher_15_22.png)
-![Speicher](Speicher_23_29.png)
-![Speicher](Speicher%20Gesamt.png)
+![Speicher 1 bis 7](Speicher_1_7.jpg)
+![Speicher 8 bis 14](Speicher_8_14.jpg)
+![Speicher 15 bis 22](Speicher_15_22.jpg)
+![Speicher 23 bis 29](Speicher_23_29.jpg)
+![Speichersumme](Speicher%20Gesamt.jpg)
