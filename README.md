@@ -83,7 +83,7 @@ Die beiden wichtigsten Verarbeitungsschritte des Algorithmus sind `Compute_D()` 
 
 Da `Compute_D()` und `Compute_S()` den mit Abstand größten Teil der Laufzeit und des Speicherverbrauchs ausmachen, muss zwischen beiden Verarbeitungsschritten abgewogen werden.
 
-Als allgemeine Einstellung ist **`P = 23`** meistens eine gute Wahl. Abhängig vom Eingabetext können jedoch andere Werte deutlich bessere Ergebnisse liefern. Für einzelne Testfälle können beispielsweise `P = 13`, ****`23`****, ****`33`****, ****`45`**** oder ****`63` sinnvoll sein.
+Als allgemeine Einstellung ist **`P = 23`** meistens eine gute Wahl. Abhängig vom Eingabetext können jedoch andere Werte deutlich bessere Ergebnisse liefern. Für einzelne Testfälle können beispielsweise `P = 13`, ****`23`****, ****`33`****, ****`45`**** oder `63` sinnvoll sein.
 
 ### Parameter `W`
 
