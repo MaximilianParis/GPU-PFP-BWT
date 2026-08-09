@@ -149,11 +149,11 @@ Die Laufzeit eines Testfalls entspricht der Länge der Zeitspanne, beginnend ab 
 * Gesamtlaufzeit der neuen Implementierung: **11,88 s**
 * Die neue Implementierung benötigt damit nur etwa **31,6 %** der Laufzeit der alten Implementierung.
 
-![Laufzeit 1 bis 7](Laufzeit_1_7.jpg)
-![Laufzeit 8 bis 14](Laufzeit_8_14.jpg)
-![Laufzeit 15 bis 22](Laufzeit_15_22.jpg)
-![Laufzeit 23 bis 29](Laufzeit_23_29.jpg)
-![Laufzeitsumme](Laufzeit%20Gesamt.jpg)
+![Laufzeit 1 bis 7](Plots/Laufzeit_1_7.jpg)
+![Laufzeit 8 bis 14](Plots/Laufzeit_8_14.jpg)
+![Laufzeit 15 bis 22](Plots/Laufzeit_15_22.jpg)
+![Laufzeit 23 bis 29](Plots/Laufzeit_23_29.jpg)
+![Laufzeitsumme](Plots/Laufzeit%20Gesamt.jpg)
 
 ### Speicherverbrauch
 
@@ -164,11 +164,11 @@ Die Laufzeit eines Testfalls entspricht der Länge der Zeitspanne, beginnend ab 
 * Die neue Implementierung benötigt damit etwa **85,1 %** des Speichers der alten Implementierung.
 * Dies entspricht einer **Speicherreduktion von etwa 14,9 %**.
 
-![Speicher 1 bis 7](Speicher_1_7.jpg)
-![Speicher 8 bis 14](Speicher_8_14.jpg)
-![Speicher 15 bis 22](Speicher_15_22.jpg)
-![Speicher 23 bis 29](Speicher_23_29.jpg)
-![Speichersumme](Speicher%20Gesamt.jpg)
+![Speicher 1 bis 7](Plots/Speicher_1_7.jpg)
+![Speicher 8 bis 14](Plots/Speicher_8_14.jpg)
+![Speicher 15 bis 22](Plots/Speicher_15_22.jpg)
+![Speicher 23 bis 29](Plots/Speicher_23_29.jpg)
+![Speichersumme](Plots/Speicher%20Gesamt.jpg)
 
 ### Parameter der Benchmark-Testfälle
 
