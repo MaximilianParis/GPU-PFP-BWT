@@ -135,7 +135,7 @@ Die Implementierung wurde auf einer **NVIDIA RTX 2060 Super** mit 29 Testfällen
 
 Link: https://pizzachili.dcc.uchile.cl/repcorpus.html
 
-Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung des Prefix-Free-Parsing-Algorithmus aus meiner Masterarbeit.
+Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung des Prefix-Free-Parsing-Algorithmus (vorheriger State of the Art) aus meiner Masterarbeit.
 
 ### Laufzeit
 
