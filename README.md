@@ -139,6 +139,8 @@ Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung
 
 ### Laufzeit
 
+Die Laufzeit eines Testfalls entspricht der Länge der Zeitspanne, beginnend ab der ersten GPU-Berechnung bis zum Ende der letzten.
+
 Über alle Testfälle ergibt sich:
 
 * **3,39× durchschnittlicher Speedup**, wenn zunächst für jeden Testfall der Speedup berechnet und anschließend gemittelt wird.
