@@ -72,7 +72,7 @@ Die beiden wichtigsten Verarbeitungsschritte des Algorithmus sind `Compute_D()` 
 
 `P` ist der wichtigste Parameter zur Abstimmung der Performance.
 
-* **Größeres ****`P`**:
+* **Größeres `P`**:
 
   * geringerer Speicherverbrauch und geringere Laufzeit von `Compute_D()`
   * höherer Speicherverbrauch bzw. höhere Laufzeit von `Compute_S()`
