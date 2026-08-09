@@ -133,6 +133,8 @@ Damit kann dieser Parameter genutzt werden, um zwischen Speicherverbrauch und La
 
 Die Implementierung wurde auf einer **NVIDIA RTX 2060 Super** mit 29 Testfällen aus dem **repetitiven Pizza&Chili Corpus** evaluiert.
 
+Link: https://pizzachili.dcc.uchile.cl/repcorpus.html
+
 Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung des Prefix-Free-Parsing-Algorithmus aus meiner Masterarbeit.
 
 ### Laufzeit
@@ -165,3 +167,45 @@ Verglichen wurde die neue Implementierung mit der vorherigen GPU-Implementierung
 ![Speicher 15 bis 22](Speicher_15_22.jpg)
 ![Speicher 23 bis 29](Speicher_23_29.jpg)
 ![Speichersumme](Speicher%20Gesamt.jpg)
+
+### Parameter der Benchmark-Testfälle
+
+Nachfolgend die Werte der im Benchmark verwendeten Parameter für P und W. Der Parameter `D_Word_Length_Cap_Mult_Constant` hat immer den Wert 3.5.
+
+| Testfall | W | P |
+|---|---:|---:|
+| Android | 5 | 16 |
+| BGL | 5 | 13 |
+| cere | 5 | 63 |
+| coreutils | 5 | 33 |
+| dblp.xml.00001.1 | 5 | 33 |
+| dblp.xml.00001.2 | 5 | 33 |
+| dblp.xml.0001.1 | 5 | 33 |
+| dblp.xml.0001.2 | 5 | 33 |
+| dna.001 | 5 | 33 |
+| EDGAR | 5 | 13 |
+| einstein.de | 5 | 23 |
+| einstein.en | 5 | 33 |
+| english.001 | 5 | 23 |
+| Escherichia_Coli | 5 | 16 |
+| fib41 | 35 | 81 |
+| HDFS_1 | 5 | 13 |
+| Horspool | 5 | 45 |
+| influenza | 5 | 23 |
+| kernel | 5 | 23 |
+| NQueens | 5 | 33 |
+| para | 5 | 14 |
+| proteins.001 | 5 | 16 |
+| Quicksort | 5 | 33 |
+| rs | 35 | 81 |
+| sources.001 | 5 | 23 |
+| Thunderbird | 5 | 16 |
+| tm29 | 35 | 81 |
+| Windows | 5 | 23 |
+| world_leaders | 5 | 16 |
+
+###Bemerkung
+
+Der Code ist bewusst nicht kommentiert. Diesen Algorithmus effizient umzusetzen, war alles andere als trivial und hat viel Zeit gekostet. Daher möchte ich persönlich nicht, dass jeder sich umsonst einfach darüber informieren kann, wie ich das gemacht habe. Ich bitte um Verständnis. Der Code kann aber von jedem, der möchte, benutzt werden. Für ein Grundverständnis des Algorithmus würde ich empfehlen, das folgende Paper zu lesen:
+
+@article{8, author = {Boucher, Christina and Gagie, Travis and Kuhnle, Alan and Langmead, Ben and Manzini, Giovanni and Mun, Taher}, title = {Prefix-free parsing for building big BWTs}, journal = {Algorithms for Molecular Biology}, year = {2019}, volume = {14}, number = {1}, pages = {13}, doi = {10.1186/s13015-019-0148-5}, url = {https://doi.org/10.1186/s13015-019-0148-5}, issn = {1748-7188} 
